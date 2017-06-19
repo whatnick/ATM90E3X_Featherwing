@@ -1,0 +1,17 @@
+#********** START OF eagle6xx-sch-to-kicad-sch.ulp 1.9 17-06-2017 :01:53:12 LOG **********#
+Device Name Conflict: Device=GROVE-CONNECTOR-SMD-90D(4+2P-2.0) from Internal SCH lib=Seeed-Connector -2016  With Device=GROVE-CONNECTOR-SMD-90D(4+2P-2.0) from LIB=Seeed-Connector
+Symbol Name Conflict: Symbol=GROVE-CONNECTOR-SMD from Internal SCH lib=Seeed-Connector -2016  With Symbol=GROVE-CONNECTOR-SMD from LIB=Seeed-Connector
+Package Name Conflict: Package=HW4-SMD-2.0-90D from Internal SCH lib=Seeed-Connector -2016  With Package=HW4-SMD-2.0-90D from LIB=Seeed-Connector
+#********** END OF eagle6xx-sch-to-kicad-sch.ulp 1.9 17-06-2017 :01:53:12 LOG **********#
+
+#********** START OF exp-lbrs.ulp 6.6 17-06-2017 :01:54:22 LOG **********#
+OK: Eagle lib export from SCH/PCB OK
+    Conversion completed with no Messages
+#********** END OF exp-lbrs.ulp 6.6 17-06-2017 :01:54:22 LOG **********#
+
+
+#********** START OF eagle-lbr2kicad-1.0.ulp 2.7 17-06-2017 :01:54:39 LOG **********#
+Missing Prefix Part =''				ATM90E26_SSOP-28					ATM90E26_Featherwing		M
+    Conversion completed with no Messages
+#********** END OF eagle-lbr2kicad-1.0.ulp 2.7 17-06-2017 :01:54:39 LOG **********#
+

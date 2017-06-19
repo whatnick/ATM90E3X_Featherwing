@@ -1,0 +1,137 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ATM90E36_Breakout
+LIBS:ROF-78E
+LIBS:ATM90E26_Featherwing
+LIBS:logo
+LIBS:ATM90E3x_fw-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ROF-78E U1
+U 1 1 594416E7
+P 5400 3550
+F 0 "U1" H 5141 3796 50  0000 L CNN
+F 1 "ROF-78E" H 5141 3705 50  0000 L CNN
+F 2 "ROF-78E:SMD-4" H 5400 3550 50  0001 L CNN
+F 3 "" H 5400 3550 60  0001 C CNN
+	1    5400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADAFRUIT_FEATHERWING MS1
+U 1 1 59441A98
+P 6450 4050
+F 0 "MS1" H 6450 4050 45  0001 C CNN
+F 1 "ADAFRUIT_FEATHERWING" H 6450 4050 45  0001 C CNN
+F 2 "ATM90E26_from_eagle:ADAFRUIT_FEATHERWING" H 6450 4050 60  0001 C CNN
+F 3 "" H 6450 4050 60  0001 C CNN
+	1    6450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SEEED-CONNECTOR--2016_GROVE-CONNECTOR-SMD-90D_4+2P-2.0_ J9
+U 1 1 59469847
+P 9050 1950
+F 0 "J9" H 9177 1992 45  0000 L CNN
+F 1 "GROVE-SMD-90D" H 9177 1908 45  0000 L CNN
+F 2 "ATM90E26_from_eagle:SEEED-CONNECTOR--2016_HW4-SMD-2.0-90D" H 9050 1950 60  0001 C CNN
+F 3 "" H 9050 1950 60  0001 C CNN
+	1    9050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR017
+U 1 1 5946B9F0
+P 8500 2350
+F 0 "#PWR017" H 8500 2200 50  0001 C CNN
+F 1 "+3V3" V 8515 2478 50  0000 L CNN
+F 2 "" H 8500 2350 50  0001 C CNN
+F 3 "" H 8500 2350 50  0001 C CNN
+	1    8500 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 5946BA31
+P 8600 2350
+F 0 "#PWR018" H 8600 2100 50  0001 C CNN
+F 1 "GND" H 8605 2177 50  0000 C CNN
+F 2 "" H 8600 2350 50  0001 C CNN
+F 3 "" H 8600 2350 50  0001 C CNN
+	1    8600 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3250 5800 3250
+Wire Wire Line
+	5800 3250 5800 2000
+Wire Wire Line
+	5800 2000 7250 2000
+Wire Wire Line
+	7250 2000 7250 2550
+Wire Wire Line
+	8050 1800 8850 1800
+Wire Wire Line
+	8850 2000 8500 2000
+Wire Wire Line
+	8500 2000 8500 2350
+Wire Wire Line
+	8850 2100 8600 2100
+Wire Wire Line
+	8600 2100 8600 2350
+Wire Wire Line
+	8600 2250 9350 2250
+Connection ~ 8600 2250
+Wire Wire Line
+	9050 1650 9350 1650
+Wire Wire Line
+	9350 1650 9350 2250
+Connection ~ 9050 2250
+Wire Wire Line
+	8050 1800 8050 2550
+Wire Wire Line
+	8150 2550 8150 1900
+Wire Wire Line
+	8150 1900 8850 1900
+$EndSCHEMATC

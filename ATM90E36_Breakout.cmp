@@ -1,0 +1,500 @@
+Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5410)-product   date = Mon 09 Feb 2015 04:12:04 PM PST
+
+BeginCmp
+TimeStamp = /5943DAE9;
+Reference = C1;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943DBB1;
+Reference = C2;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943DC79;
+Reference = C3;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943DD41;
+Reference = C4;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943DE09;
+Reference = C5;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943DED1;
+Reference = C6;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943DF99;
+Reference = C7;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943E061;
+Reference = C8;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943E129;
+Reference = C9;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943E1F1;
+Reference = C10;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943E2B9;
+Reference = C11;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943E381;
+Reference = C12;
+ValeurCmp = C-USC0805;
+IdModule  = ADAFRUIT_C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943E449;
+Reference = C13;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943E511;
+Reference = C14;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943E5D9;
+Reference = C15;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943E6A1;
+Reference = C16;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943E769;
+Reference = C17;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943E831;
+Reference = C18;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943E8F9;
+Reference = C19;
+ValeurCmp = C-USC0805;
+IdModule  = ADAFRUIT_C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943E9C1;
+Reference = C20;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943EA89;
+Reference = C21;
+ValeurCmp = C-USC0603;
+IdModule  = ADAFRUIT_C0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943EB51;
+Reference = CTA;
+ValeurCmp = AUDIO-JACK-6P-SMD(ST-PJ-312);
+IdModule  = SEEED-CONNECTOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943EC19;
+Reference = CTB;
+ValeurCmp = AUDIO-JACK-6P-SMD(ST-PJ-312);
+IdModule  = SEEED-CONNECTOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943ECE1;
+Reference = CTC;
+ValeurCmp = AUDIO-JACK-6P-SMD(ST-PJ-312);
+IdModule  = SEEED-CONNECTOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943EDA9;
+Reference = CTN;
+ValeurCmp = AUDIO-JACK-6P-SMD(ST-PJ-312);
+IdModule  = SEEED-CONNECTOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943EE71;
+Reference = DMA;
+ValeurCmp = JUMPER-PAD-3-NOFULL_BOX_SILK;
+IdModule  = SPARKFUN-PASSIVES_PAD-JUMPER-3-NO_YES_SILK_FULL_BOX;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943F44D;
+Reference = IC1;
+ValeurCmp = ATM90E36;
+IdModule  = ATM90E36_TQFP48;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943F515;
+Reference = JP1;
+ValeurCmp = M06LOCK;
+IdModule  = SPARKFUN-CONNECTORS_1X06_LOCK;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943F5DD;
+Reference = JP2;
+ValeurCmp = M06LOCK;
+IdModule  = SPARKFUN-CONNECTORS_1X06_LOCK;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943F6A5;
+Reference = JP3;
+ValeurCmp = M04LOCK;
+IdModule  = SPARKFUN-CONNECTORS_1X04_LOCK;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943F76D;
+Reference = LED1;
+ValeurCmp = LEDCHIP-LED0603;
+IdModule  = ADAFRUIT_CHIP-LED0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943F835;
+Reference = LED2;
+ValeurCmp = LEDCHIP-LED0603;
+IdModule  = ADAFRUIT_CHIP-LED0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943F8FD;
+Reference = LED3;
+ValeurCmp = LEDCHIP-LED0603;
+IdModule  = ADAFRUIT_CHIP-LED0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943F9C5;
+Reference = LED4;
+ValeurCmp = LEDCHIP-LED0603;
+IdModule  = ADAFRUIT_CHIP-LED0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943FA8D;
+Reference = LOGO1;
+ValeurCmp = OSHW-LOGOM;
+IdModule  = SPARKFUN-AESTHETICS_OSHW-LOGO-M;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943FB55;
+Reference = PM0;
+ValeurCmp = JUMPER-PAD-3-NOFULL_BOX_SILK;
+IdModule  = SPARKFUN-PASSIVES_PAD-JUMPER-3-NO_YES_SILK_FULL_BOX;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943FC1D;
+Reference = PM1;
+ValeurCmp = JUMPER-PAD-3-NOFULL_BOX_SILK;
+IdModule  = SPARKFUN-PASSIVES_PAD-JUMPER-3-NO_YES_SILK_FULL_BOX;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943FCE5;
+Reference = Q1;
+ValeurCmp = FA-128;
+IdModule  = CRYSTAL_FA-128;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943FDAD;
+Reference = R1;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943FE75;
+Reference = R2;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5943FF3D;
+Reference = R3;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59440005;
+Reference = R4;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /594400CD;
+Reference = R5;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59440195;
+Reference = R6;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5944025D;
+Reference = R7;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59440325;
+Reference = R8;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /594403ED;
+Reference = R9;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /594404B5;
+Reference = R10;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5944057D;
+Reference = R11;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59440645;
+Reference = R12;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5944070D;
+Reference = R13;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /594407D5;
+Reference = R14;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5944089D;
+Reference = R15;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59440965;
+Reference = R16;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59440A2D;
+Reference = R17;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59440AF5;
+Reference = R18;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59440BBD;
+Reference = R19;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59440C85;
+Reference = R20;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59440D4D;
+Reference = R21;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59440E15;
+Reference = R22;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59440EDD;
+Reference = R23;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59440FA5;
+Reference = R24;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5944106D;
+Reference = R25;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /59441135;
+Reference = R26;
+ValeurCmp = R-US_R0603;
+IdModule  = ADAFRUIT_R0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /594411FD;
+Reference = R27;
+ValeurCmp = SMD-RES-ARRAY-1K-4R(RA1206-8);
+IdModule  = SEEED-RESISTOR-2016_RA1206-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /594412C5;
+Reference = R36;
+ValeurCmp = SMD-RES-ARRAY-1K-4R(RA1206-8);
+IdModule  = SEEED-RESISTOR-2016_RA1206-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /594414B9;
+Reference = UAUB;
+ValeurCmp = SCREW-TERMINAL-GREEN(2P-3.5);
+IdModule  = SEEED-CONNECTOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /59441581;
+Reference = UCUN;
+ValeurCmp = SCREW-TERMINAL-GREEN(2P-3.5);
+IdModule  = SEEED-CONNECTOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /59441649;
+Reference = ZX0;
+ValeurCmp = SMD2;
+IdModule  = WIREPAD_SMD1_27-2_54;
+EndCmp
+
+BeginCmp
+TimeStamp = /59441711;
+Reference = ZX1;
+ValeurCmp = SMD2;
+IdModule  = WIREPAD_SMD1_27-2_54;
+EndCmp
+
+BeginCmp
+TimeStamp = /594417D9;
+Reference = ZX2;
+ValeurCmp = SMD2;
+IdModule  = WIREPAD_SMD1_27-2_54;
+EndCmp
+
+EndListe
