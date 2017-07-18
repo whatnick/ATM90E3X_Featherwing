@@ -31,8 +31,9 @@ LIBS:valves
 LIBS:ATM90E36_Breakout
 LIBS:ROF-78E
 LIBS:ATM90E26_Featherwing
+LIBS:logo
 LIBS:ATM90E3x_fw-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
