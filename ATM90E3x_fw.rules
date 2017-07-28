@@ -1,0 +1,200 @@
+
+(rules PCB ATM90E3x_fw
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 40)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 300.0)
+    (clear 100.2)
+    (clear 150.0 (type smd_to_turn_gap))
+    (clear 200.2 (type default_+3v3))
+    (clear 200.2 (type default_GND))
+    (clear 300.2 (type default_Power))
+    (clear 200.2 (type default_VCC))
+    (clear 25.0 (type smd_smd))
+    (clear 200.2 (type smd_+3v3))
+    (clear 200.2 (type smd_GND))
+    (clear 300.2 (type smd_Power))
+    (clear 200.2 (type smd_VCC))
+    (clear 200.2 (type "kicad_default"_+3v3))
+    (clear 200.2 (type "kicad_default"_GND))
+    (clear 300.2 (type "kicad_default"_Power))
+    (clear 200.2 (type "kicad_default"_VCC))
+    (clear 200.2 (type +3v3_+3v3))
+    (clear 200.2 (type +3v3_GND))
+    (clear 300.2 (type +3v3_Power))
+    (clear 200.2 (type +3v3_VCC))
+    (clear 200.2 (type GND_GND))
+    (clear 300.2 (type GND_Power))
+    (clear 200.2 (type GND_VCC))
+    (clear 300.2 (type Power_Power))
+    (clear 300.2 (type Power_VCC))
+    (clear 200.2 (type VCC_VCC))
+  )
+  (padstack "Via[0-1]_500:400_um"
+    (shape
+      (circle F.Cu 500.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 500.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_500:400_um" "Via[0-1]_500:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_500:400_um-kicad_default" "Via[0-1]_500:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_500:400_um-+3v3" "Via[0-1]_500:400_um" +3v3
+  )
+  (via 
+    "Via[0-1]_800:400_um-+3v3" "Via[0-1]_800:400_um" +3v3
+  )
+  (via 
+    "Via[0-1]_500:400_um-GND" "Via[0-1]_500:400_um" GND
+  )
+  (via 
+    "Via[0-1]_800:400_um-GND" "Via[0-1]_800:400_um" GND
+  )
+  (via 
+    "Via[0-1]_500:400_um-Power" "Via[0-1]_500:400_um" Power
+  )
+  (via 
+    "Via[0-1]_800:400_um-Power" "Via[0-1]_800:400_um" Power
+  )
+  (via 
+    "Via[0-1]_500:400_um-VCC" "Via[0-1]_500:400_um" VCC
+  )
+  (via 
+    "Via[0-1]_800:400_um-VCC" "Via[0-1]_800:400_um" VCC
+  )
+  (via_rule
+    default "Via[0-1]_500:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_500:400_um-kicad_default"
+  )
+  (via_rule
+    +3v3 "Via[0-1]_800:400_um-+3v3"
+  )
+  (via_rule
+    GND "Via[0-1]_800:400_um-GND"
+  )
+  (via_rule
+    Power "Via[0-1]_800:400_um-Power"
+  )
+  (via_rule
+    VCC "Via[0-1]_800:400_um-VCC"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(IC1-Pad46)" "Net-(IC1-Pad45)" "Net-(IC1-Pad35)" "Net-(IC1-Pad21)" "Net-(IC1-Pad20)" "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(D3-Pad2)"
+    "Net-(D4-Pad2)" "Net-(U1-Pad4)" "Net-(MS1-Pad1)" "Net-(MS1-Pad2)" "Net-(MS1-Pad3)" "Net-(MS1-Pad4)" "Net-(MS1-Pad5)" "Net-(MS1-Pad6)"
+    "Net-(MS1-Pad7)" "Net-(MS1-Pad8)" "Net-(MS1-Pad9)" "Net-(MS1-Pad10)" "Net-(MS1-Pad11)" "Net-(MS1-Pad12)" "Net-(MS1-Pad13)" "Net-(MS1-Pad14)"
+    "Net-(MS1-Pad15)" "Net-(MS1-Pad16)" "Net-(MS1-Pad19)" "Net-(MS1-Pad20)" "Net-(MS1-Pad21)" "Net-(MS1-Pad22)" "Net-(MS1-Pad23)" "Net-(MS1-Pad24)"
+    "Net-(MS1-Pad25)" "Net-(MS1-Pad27)" "Net-(MS1-Pad28)" "Net-(C17-Pad1)" "Net-(C19-Pad1)" "Net-(C21-Pad2)" "Net-(C20-Pad2)" "Net-(C15-Pad2)"
+    "Net-(C13-Pad2)" "Net-(J9-Pad1)" "Net-(J9-Pad2)" MOSI MISO SCLK CS CF1
+    CF4 CF2 CF3 "I1P_IN" I1P "I2P_IN" I1N "I1N_IN"
+    "I3N_IN" "I3P_IN" "I2N_IN" I3N "IP_IN" "IN_IN" I2P I2N
+    IP IN I3P DMA PM1 PM0 IRQ1 IRQ2
+    WARN ZX2 ZX1 ZX0 V3P V2P V1P "Net-(C30-Pad1)"
+    "Net-(C32-Pad1)" "Net-(D40-Pad2)" "Net-(JP1-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class +3v3
+    (clearance_class +3v3)
+    (via_rule +3v3)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class GND
+    (clearance_class GND)
+    (via_rule GND)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    GND UB UC UA +3V3 USB VDD
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class VCC
+    (clearance_class VCC)
+    (via_rule VCC)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

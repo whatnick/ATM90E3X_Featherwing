@@ -1,4 +1,4 @@
-update=20-Jun-17 12:41:11 AM
+update=28/07/2017 11:25:45 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,6 +59,6 @@ LibName29=valves
 LibName30=ATM90E36_Breakout
 LibName31=ROF-78E
 LibName32=ATM90E26_Featherwing
-LibName33=logo
+LibName33=whatnick
 [general]
 version=1

@@ -2,4 +2,6 @@
   (lib (name ATM90E36_Breakout)(type Legacy)(uri "$(KIPRJMOD)/ATM90E36_Breakout.mod")(options "")(descr ""))
   (lib (name ROF-78E)(type Legacy)(uri "$(KIPRJMOD)/Recom_DCDC.pretty/ROF-78E.mod")(options "")(descr ""))
   (lib (name ATM90E26_from_eagle)(type KiCad)(uri "$(KIPRJMOD)/ATM90E26_from_eagle.pretty")(options "")(descr ""))
+  (lib (name Whatnick_logo)(type KiCad)(uri "$(KIPRJMOD)/Whatnick_logo.pretty")(options "")(descr ""))
+  (lib (name Molex_RJ45)(type KiCad)(uri "$(KIPRJMOD)/Molex_RJ45.pretty")(options "")(descr ""))
 )
