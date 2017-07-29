@@ -396,4 +396,8 @@ Text GLabel 8000 4800 3    60   Input ~ 0
 +3V3
 Text GLabel 8200 4800 3    60   Input ~ 0
 GND
+Text Label 4350 3150 0    60   ~ 0
+VIN
+Text Label 2800 3150 0    60   ~ 0
+VOUT
 $EndSCHEMATC
