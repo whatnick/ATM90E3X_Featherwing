@@ -393,7 +393,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 4650 8200 4800
 Text GLabel 8000 4800 3    60   Input ~ 0
-3V3
++3V3
 Text GLabel 8200 4800 3    60   Input ~ 0
 GND
 $EndSCHEMATC
