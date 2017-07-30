@@ -77,6 +77,7 @@ F 0 "J4" V 9672 3728 50  0000 L CNN
 F 1 "CONN_01X04" V 9763 3728 50  0000 L CNN
 F 2 "Connectors_Phoenix:PhoenixContact_MC-G_04x3.50mm_Angled" H 9800 3500 50  0001 C CNN
 F 3 "" H 9800 3500 50  0001 C CNN
+F 4 "20020110-C041A01LF" H 9800 3500 60  0001 C CNN "manf#"
 	1    9800 3500
 	0    1    1    0   
 $EndComp

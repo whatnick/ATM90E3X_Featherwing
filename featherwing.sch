@@ -343,7 +343,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 2950 9000 2800
 Text GLabel 8900 4800 3    60   Input ~ 0
-SCK
+SCLK
 Text GLabel 9000 4800 3    60   Input ~ 0
 MOSI
 Text GLabel 9100 4800 3    60   Input ~ 0
@@ -393,7 +393,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 4650 8200 4800
 Text GLabel 8000 4800 3    60   Input ~ 0
-+3V3
+VDD
 Text GLabel 8200 4800 3    60   Input ~ 0
 GND
 Text Label 4350 3150 0    60   ~ 0
