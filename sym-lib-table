@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name ATM90E3x_fw-rescue)(type Legacy)(uri ${KIPRJMOD}/ATM90E3x_fw-rescue.lib)(options "")(descr ""))
+  (lib (name ATM90E36_Breakout)(type Legacy)(uri ${KIPRJMOD}/ATM90E36_Breakout.lib)(options "")(descr ""))
+  (lib (name ROF-78E)(type Legacy)(uri ${KIPRJMOD}/ROF-78E.lib)(options "")(descr ""))
+  (lib (name ATM90E26_Featherwing)(type Legacy)(uri ${KIPRJMOD}/ATM90E26_Featherwing.lib)(options "")(descr ""))
+  (lib (name whatnick)(type Legacy)(uri ${KIPRJMOD}/whatnick.lib)(options "")(descr ""))
+)

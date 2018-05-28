@@ -1,4 +1,37 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ATM90E36_Breakout
+LIBS:ROF-78E
+LIBS:ATM90E26_Featherwing
+LIBS:whatnick
 LIBS:ATM90E3x_fw-cache
 EELAYER 26 0
 EELAYER END
@@ -15,7 +48,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ROF-78E:ROF-78E U1
+L ROF-78E U1
 U 1 1 597B3E83
 P 2750 3450
 F 0 "U1" H 2491 3696 50  0000 L CNN
@@ -26,7 +59,7 @@ F 3 "" H 2750 3450 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ATM90E26_Featherwing:ADAFRUIT_FEATHERWING MS1
+L ADAFRUIT_FEATHERWING MS1
 U 1 1 597B3E84
 P 7700 4450
 F 0 "MS1" H 7700 4450 45  0001 C CNN
@@ -37,7 +70,7 @@ F 3 "" H 7700 4450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ATM90E26_Featherwing:SEEED-CONNECTOR--2016_GROVE-CONNECTOR-SMD-90D_4+2P-2.0_ J10
+L SEEED-CONNECTOR--2016_GROVE-CONNECTOR-SMD-90D_4+2P-2.0_ J10
 U 1 1 597B3E85
 P 10300 2300
 F 0 "J10" H 10427 2342 45  0000 L CNN
@@ -48,10 +81,10 @@ F 3 "" H 10300 2300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR019
+L +3V3 #PWR19
 U 1 1 597B3E86
 P 9750 2700
-F 0 "#PWR019" H 9750 2550 50  0001 C CNN
+F 0 "#PWR19" H 9750 2550 50  0001 C CNN
 F 1 "+3V3" V 9765 2828 50  0000 L CNN
 F 2 "" H 9750 2700 50  0001 C CNN
 F 3 "" H 9750 2700 50  0001 C CNN
@@ -59,10 +92,10 @@ F 3 "" H 9750 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR020
+L GND #PWR20
 U 1 1 597B3E87
 P 9850 2700
-F 0 "#PWR020" H 9850 2450 50  0001 C CNN
+F 0 "#PWR20" H 9850 2450 50  0001 C CNN
 F 1 "GND" H 9855 2527 50  0000 C CNN
 F 2 "" H 9850 2700 50  0001 C CNN
 F 3 "" H 9850 2700 50  0001 C CNN
@@ -70,7 +103,7 @@ F 3 "" H 9850 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP C25
+L CP C25
 U 1 1 597B3E89
 P 5050 3350
 F 0 "C25" H 5075 3450 50  0000 L CNN
@@ -81,7 +114,7 @@ F 3 "" H 5050 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP C23
+L CP C23
 U 1 1 597B3E8A
 P 2650 3500
 F 0 "C23" H 2675 3600 50  0000 L CNN
@@ -92,7 +125,7 @@ F 3 "" H 2650 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C24
+L C_Small C24
 U 1 1 597B3E8B
 P 4650 3350
 F 0 "C24" H 4660 3420 50  0000 L CNN
@@ -103,7 +136,7 @@ F 3 "" H 4650 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C22
+L C_Small C22
 U 1 1 597B3E8C
 P 2200 3550
 F 0 "C22" H 2210 3620 50  0000 L CNN
@@ -114,7 +147,7 @@ F 3 "" H 2200 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky D7
+L D_Schottky D7
 U 1 1 597B3E8D
 P 5950 3150
 F 0 "D7" H 5950 3250 50  0000 C CNN
@@ -125,7 +158,7 @@ F 3 "" H 5950 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky D8
+L D_Schottky D8
 U 1 1 597B3E8E
 P 5950 3450
 F 0 "D8" H 5950 3550 50  0000 C CNN
@@ -136,7 +169,7 @@ F 3 "" H 5950 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky D9
+L D_Schottky D9
 U 1 1 597B3E8F
 P 5950 3800
 F 0 "D9" H 5950 3900 50  0000 C CNN
@@ -147,7 +180,7 @@ F 3 "" H 5950 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky D6
+L D_Schottky D6
 U 1 1 597B3E90
 P 2400 2850
 F 0 "D6" H 2400 2950 50  0000 C CNN
@@ -158,7 +191,7 @@ F 3 "" H 2400 2850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D5
+L LED D5
 U 1 1 597B3E91
 P 950 3950
 F 0 "D5" H 950 4050 50  0000 C CNN
@@ -169,7 +202,7 @@ F 3 "" H 950 3950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R29
+L R R29
 U 1 1 597B3E92
 P 950 3450
 F 0 "R29" V 1030 3450 50  0000 C CNN
@@ -180,7 +213,7 @@ F 3 "" H 950 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Jumper JP1
+L Jumper JP1
 U 1 1 597B3E93
 P 1650 3150
 F 0 "JP1" H 1650 3300 50  0000 C CNN
@@ -203,10 +236,10 @@ UB
 Text GLabel 6200 3150 2    60   Input ~ 0
 UA
 $Comp
-L power:GND #PWR018
+L GND #PWR18
 U 1 1 597B3E94
 P 3550 4400
-F 0 "#PWR018" H 3550 4150 50  0001 C CNN
+F 0 "#PWR18" H 3550 4150 50  0001 C CNN
 F 1 "GND" H 3555 4227 50  0000 C CNN
 F 2 "" H 3550 4400 50  0001 C CNN
 F 3 "" H 3550 4400 50  0001 C CNN
@@ -222,9 +255,9 @@ Wire Wire Line
 Wire Wire Line
 	10100 2450 9850 2450
 Wire Wire Line
-	9850 2450 9850 2600
+	9850 2450 9850 2700
 Wire Wire Line
-	9850 2600 10300 2600
+	9850 2600 10600 2600
 Connection ~ 9850 2600
 Wire Wire Line
 	10300 2000 10600 2000
@@ -238,7 +271,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 2250 10100 2250
 Wire Wire Line
-	1950 3150 2200 3150
+	1950 3150 3050 3150
 Wire Wire Line
 	1350 3150 950  3150
 Wire Wire Line
@@ -248,9 +281,9 @@ Wire Wire Line
 Wire Wire Line
 	950  4100 950  4250
 Wire Wire Line
-	950  4250 2200 4250
+	950  4250 6200 4250
 Wire Wire Line
-	3550 3750 3550 4250
+	3550 3750 3550 4400
 Wire Wire Line
 	2650 3650 2650 4250
 Connection ~ 2650 4250
@@ -269,7 +302,7 @@ Connection ~ 3550 4250
 Wire Wire Line
 	4650 3250 4650 3150
 Wire Wire Line
-	4050 3150 4650 3150
+	4050 3150 5800 3150
 Wire Wire Line
 	5050 3150 5050 3200
 Connection ~ 4650 3150
@@ -287,7 +320,7 @@ Connection ~ 5050 3150
 Wire Wire Line
 	5800 3450 5500 3450
 Wire Wire Line
-	5500 3150 5500 3450
+	5500 3150 5500 3800
 Connection ~ 5500 3150
 Wire Wire Line
 	5500 3800 5800 3800
@@ -316,7 +349,7 @@ MOSI
 Text GLabel 9100 4800 3    60   Input ~ 0
 MISO
 $Comp
-L ATM90E3x_fw-rescue:GS3-RESCUE-ATM90E3x_fw J9
+L GS3 J9
 U 1 1 597B52FB
 P 8950 2550
 F 0 "J9" V 8996 2362 50  0000 R CNN
@@ -345,7 +378,7 @@ Rectifier and Regulator
 Text Notes 8450 5700 0    60   ~ 0
 Feather Connector
 $Comp
-L whatnick:LOGO LOGO2
+L LOGO LOGO2
 U 1 1 597B65BD
 P 3550 1450
 F 0 "LOGO2" H 3550 1348 60  0001 C CNN
@@ -367,34 +400,4 @@ Text Label 4350 3150 0    60   ~ 0
 VIN
 Text Label 2800 3150 0    60   ~ 0
 VOUT
-Wire Wire Line
-	9850 2600 9850 2700
-Wire Wire Line
-	10300 2600 10600 2600
-Wire Wire Line
-	2650 4250 3550 4250
-Wire Wire Line
-	2200 4250 2650 4250
-Wire Wire Line
-	2200 3150 2400 3150
-Wire Wire Line
-	2650 3150 3050 3150
-Wire Wire Line
-	3550 4250 3550 4400
-Wire Wire Line
-	3550 4250 4650 4250
-Wire Wire Line
-	4650 3150 5050 3150
-Wire Wire Line
-	4650 4250 5050 4250
-Wire Wire Line
-	2400 3150 2650 3150
-Wire Wire Line
-	5050 3150 5500 3150
-Wire Wire Line
-	5500 3150 5800 3150
-Wire Wire Line
-	5500 3450 5500 3800
-Wire Wire Line
-	5050 4250 6200 4250
 $EndSCHEMATC
