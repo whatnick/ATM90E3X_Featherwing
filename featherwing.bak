@@ -335,7 +335,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 2800 9050 2700
 Wire Wire Line
-	8950 2400 8950 2250
+	8950 2400 8950 2350
 Text GLabel 8950 2250 1    60   Input ~ 0
 CS
 Wire Notes Line
@@ -397,4 +397,14 @@ Wire Wire Line
 	5500 3450 5500 3800
 Wire Wire Line
 	5050 4250 6200 4250
+Wire Wire Line
+	8850 2800 8700 2800
+Wire Wire Line
+	8700 2800 8700 2350
+Wire Wire Line
+	8700 2350 8950 2350
+Connection ~ 8850 2800
+Connection ~ 8950 2350
+Wire Wire Line
+	8950 2350 8950 2250
 $EndSCHEMATC
