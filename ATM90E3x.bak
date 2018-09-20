@@ -1735,12 +1735,12 @@ Wire Wire Line
 Wire Notes Line
 	3350 450  3350 7800
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J5
 U 1 1 5B03C42A
 P 9850 1700
-F 0 "J?" V 10067 1646 50  0000 C CNN
+F 0 "J5" V 10067 1646 50  0000 C CNN
 F 1 "Conn_01x08" V 9976 1646 50  0000 C CNN
-F 2 "" H 9850 1700 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105314-xx08_2x04_P2.50mm_Horizontal" H 9850 1700 50  0001 C CNN
 F 3 "~" H 9850 1700 50  0001 C CNN
 	1    9850 1700
 	0    -1   -1   0   
