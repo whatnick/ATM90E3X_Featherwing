@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Tisham\Documents\kicad\ATM90E3X_Featherwing\ATM90E3x_fw.sch</source>
-    <date>20/09/2018 2:47:54 PM</date>
+    <date>21/09/2018 12:09:08 PM</date>
     <tool>Eeschema (2018-02-15 revision 29b28de31)-makepkg</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -84,8 +84,11 @@
       <tstamp>594404BF</tstamp>
     </comp>
     <comp ref="R28">
-      <value>SMD-RES-ARRAY</value>
+      <value>1KX4</value>
       <footprint>Resistors_SMD:R_Array_Concave_4x0603</footprint>
+      <fields>
+        <field name="manf#">YC122-JR-071KL</field>
+      </fields>
       <libsource lib="ATM90E36_Breakout" part="SEEED-RESISTOR-2016_SMD-RES-ARRAY-1K-4R_RA1206-8_"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594405BB</tstamp>
@@ -121,6 +124,9 @@
     <comp ref="J3">
       <value>CONN_01X06</value>
       <footprint>Connectors_JST:JST_SH_BM06B-SRSS-TB_06x1.00mm_Straight</footprint>
+      <fields>
+        <field name="manf#">BM06B-SRSS-TB(LF)(SN)</field>
+      </fields>
       <libsource lib="ATM90E3x_fw-rescue" part="CONN_01X06-RESCUE-ATM90E3x_fw"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59440A00</tstamp>
@@ -128,68 +134,71 @@
     <comp ref="J8">
       <value>CONN_01X06</value>
       <footprint>Connectors_JST:JST_SH_BM06B-SRSS-TB_06x1.00mm_Straight</footprint>
+      <fields>
+        <field name="manf#">BM06B-SRSS-TB(LF)(SN)</field>
+      </fields>
       <libsource lib="ATM90E3x_fw-rescue" part="CONN_01X06-RESCUE-ATM90E3x_fw"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59440AD4</tstamp>
     </comp>
     <comp ref="R10">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59441213</tstamp>
     </comp>
     <comp ref="R9">
-      <value>R</value>
+      <value>100K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59441271</tstamp>
     </comp>
     <comp ref="R11">
-      <value>R</value>
+      <value>100K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594412B3</tstamp>
     </comp>
     <comp ref="R12">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594412F5</tstamp>
     </comp>
     <comp ref="R22">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>5944133F</tstamp>
     </comp>
     <comp ref="R21">
-      <value>R</value>
+      <value>100K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59441389</tstamp>
     </comp>
     <comp ref="C5">
-      <value>C_Small</value>
+      <value>18nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>5944E96D</tstamp>
     </comp>
     <comp ref="C6">
-      <value>C_Small</value>
+      <value>18nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>5944EB39</tstamp>
     </comp>
     <comp ref="C11">
-      <value>C_Small</value>
+      <value>18nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
@@ -203,70 +212,70 @@
       <tstamp>5945033A</tstamp>
     </comp>
     <comp ref="R5">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594506E9</tstamp>
     </comp>
     <comp ref="R6">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594507D2</tstamp>
     </comp>
     <comp ref="R7">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59450838</tstamp>
     </comp>
     <comp ref="R8">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>5945088A</tstamp>
     </comp>
     <comp ref="R17">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>5945103A</tstamp>
     </comp>
     <comp ref="R18">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594510B2</tstamp>
     </comp>
     <comp ref="R19">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59451138</tstamp>
     </comp>
     <comp ref="R20">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594511B0</tstamp>
     </comp>
     <comp ref="R1">
-      <value>R</value>
+      <value>2.4R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594518B6</tstamp>
     </comp>
     <comp ref="R2">
-      <value>R</value>
+      <value>2.4R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
@@ -280,196 +289,199 @@
       <tstamp>5945199D</tstamp>
     </comp>
     <comp ref="R4">
-      <value>R</value>
+      <value>2.4R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59451A13</tstamp>
     </comp>
     <comp ref="R13">
-      <value>R</value>
+      <value>2.4R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59451A73</tstamp>
     </comp>
     <comp ref="R14">
-      <value>R</value>
+      <value>2.4R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59451AE7</tstamp>
     </comp>
     <comp ref="R15">
-      <value>R</value>
+      <value>2.4R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59451B4B</tstamp>
     </comp>
     <comp ref="R16">
-      <value>R</value>
+      <value>2.4R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59451BCB</tstamp>
     </comp>
     <comp ref="C1">
-      <value>C_Small</value>
+      <value>18nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59451DA0</tstamp>
     </comp>
     <comp ref="C2">
-      <value>C_Small</value>
+      <value>18nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59451E64</tstamp>
     </comp>
     <comp ref="C3">
-      <value>C_Small</value>
+      <value>18nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59451EDA</tstamp>
     </comp>
     <comp ref="C4">
-      <value>C_Small</value>
+      <value>18nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59451F5C</tstamp>
     </comp>
     <comp ref="C7">
-      <value>C_Small</value>
+      <value>18nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59451FD4</tstamp>
     </comp>
     <comp ref="C8">
-      <value>C_Small</value>
+      <value>18nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59452062</tstamp>
     </comp>
     <comp ref="C9">
-      <value>C_Small</value>
+      <value>18nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594520E2</tstamp>
     </comp>
     <comp ref="C10">
-      <value>C_Small</value>
+      <value>18nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59452166</tstamp>
     </comp>
     <comp ref="R27">
-      <value>SMD-RES-ARRAY</value>
+      <value>10KX4</value>
       <footprint>Resistors_SMD:R_Array_Concave_4x0603</footprint>
+      <fields>
+        <field name="manf#">YC164-JR-07510KL</field>
+      </fields>
       <libsource lib="ATM90E36_Breakout" part="SEEED-RESISTOR-2016_SMD-RES-ARRAY-1K-4R_RA1206-8_"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59456219</tstamp>
     </comp>
     <comp ref="C12">
-      <value>C_Small</value>
+      <value>100nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594563F9</tstamp>
     </comp>
     <comp ref="C16">
-      <value>C_Small</value>
+      <value>100nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594564CB</tstamp>
     </comp>
     <comp ref="C18">
-      <value>C_Small</value>
+      <value>10uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>5945659A</tstamp>
     </comp>
     <comp ref="C17">
-      <value>C_Small</value>
+      <value>100nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59456636</tstamp>
     </comp>
     <comp ref="C19">
-      <value>C_Small</value>
+      <value>100nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594566BA</tstamp>
     </comp>
     <comp ref="C13">
-      <value>C_Small</value>
+      <value>10uF</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59456889</tstamp>
     </comp>
     <comp ref="C14">
-      <value>C_Small</value>
+      <value>100nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59456968</tstamp>
     </comp>
     <comp ref="C15">
-      <value>C_Small</value>
+      <value>18nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594569EC</tstamp>
     </comp>
     <comp ref="C20">
-      <value>C_Small</value>
+      <value>18nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59456ADC</tstamp>
     </comp>
     <comp ref="C21">
-      <value>C_Small</value>
+      <value>18nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59456B6E</tstamp>
     </comp>
     <comp ref="R23">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59456D76</tstamp>
     </comp>
     <comp ref="R24">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59456E76</tstamp>
     </comp>
     <comp ref="R26">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59456F16</tstamp>
     </comp>
     <comp ref="R25">
-      <value>R</value>
+      <value>10K</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
@@ -478,6 +490,9 @@
     <comp ref="Y1">
       <value>Crystal_GND24</value>
       <footprint>Crystals:Crystal_SMD_2520-4pin_2.5x2.0mm</footprint>
+      <fields>
+        <field name="manf#">ABM10-16.000MHZ-E20-T</field>
+      </fields>
       <libsource lib="device" part="Crystal_GND24"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594571F7</tstamp>
@@ -492,6 +507,9 @@
     <comp ref="J11">
       <value>CONN_01X03</value>
       <footprint>Connectors_JST:JST_SH_BM03B-SRSS-TB_03x1.00mm_Straight</footprint>
+      <fields>
+        <field name="manf#">BM03B-SRSS-TB(LF)(SN)</field>
+      </fields>
       <libsource lib="ATM90E3x_fw-rescue" part="CONN_01X03-RESCUE-ATM90E3x_fw"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>597C8259</tstamp>
@@ -499,6 +517,9 @@
     <comp ref="J5">
       <value>Conn_01x08</value>
       <footprint>Connector_Molex:Molex_Nano-Fit_105314-xx08_2x04_P2.50mm_Horizontal</footprint>
+      <fields>
+        <field name="manf#">105314-1108</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x08"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>5B03C42A</tstamp>
@@ -506,6 +527,9 @@
     <comp ref="U1">
       <value>ROF-78E</value>
       <footprint>ROF-78E:SMD-4</footprint>
+      <fields>
+        <field name="manf#">ROF-78E5.0-0.5SMD-R</field>
+      </fields>
       <libsource lib="ROF-78E" part="ROF-78E"/>
       <sheetpath names="/Featherwing/" tstamps="/5943D88D/"/>
       <tstamp>597B3E83</tstamp>
