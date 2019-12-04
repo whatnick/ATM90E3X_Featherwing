@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Tisham\Documents\kicad\ATM90E3X_Featherwing\ATM90E3x_fw.sch</source>
-    <date>21/09/2018 12:09:08 PM</date>
+    <date>7/01/2019 9:56:10 PM</date>
     <tool>Eeschema (2018-02-15 revision 29b28de31)-makepkg</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -65,6 +65,9 @@
     <comp ref="J2">
       <value>GS3</value>
       <footprint>Connectors:GS3</footprint>
+      <fields>
+        <field name="DNP "> </field>
+      </fields>
       <libsource lib="ATM90E3x_fw-rescue" part="GS3-RESCUE-ATM90E3x_fw"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59440387</tstamp>
@@ -72,6 +75,9 @@
     <comp ref="J6">
       <value>GS3</value>
       <footprint>Connectors:GS3</footprint>
+      <fields>
+        <field name="DNP"> </field>
+      </fields>
       <libsource lib="ATM90E3x_fw-rescue" part="GS3-RESCUE-ATM90E3x_fw"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>59440489</tstamp>
@@ -79,6 +85,9 @@
     <comp ref="J7">
       <value>GS3</value>
       <footprint>Connectors:GS3</footprint>
+      <fields>
+        <field name="DNP"> </field>
+      </fields>
       <libsource lib="ATM90E3x_fw-rescue" part="GS3-RESCUE-ATM90E3x_fw"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
       <tstamp>594404BF</tstamp>
@@ -87,7 +96,7 @@
       <value>1KX4</value>
       <footprint>Resistors_SMD:R_Array_Concave_4x0603</footprint>
       <fields>
-        <field name="manf#">YC122-JR-071KL</field>
+        <field name="manf#">CAT16-102J4LF</field>
       </fields>
       <libsource lib="ATM90E36_Breakout" part="SEEED-RESISTOR-2016_SMD-RES-ARRAY-1K-4R_RA1206-8_"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
@@ -282,7 +291,7 @@
       <tstamp>59451937</tstamp>
     </comp>
     <comp ref="R3">
-      <value>R</value>
+      <value>2.4R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/ATM90E3x/" tstamps="/5943D864/"/>
@@ -612,7 +621,7 @@
       <tstamp>597B3E91</tstamp>
     </comp>
     <comp ref="R29">
-      <value>R</value>
+      <value>1K</value>
       <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Featherwing/" tstamps="/5943D88D/"/>
